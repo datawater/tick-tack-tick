@@ -82,6 +82,7 @@ public class sharpGUI {
                         else {button.setText("O");}
                         tickCheckForWin();
                     }
+                    state = !state;
                 }
 
                 // Ignore this
